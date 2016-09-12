@@ -1,7 +1,7 @@
 name:           Galileo Correspondence Project
 destination:    ./_site
-plugins:        ./_plugins
-layouts:        ./_layouts
+plugins_dir:        ./_plugins
+layouts_dir:        ./_layouts
 
 highlighter:    pygments
 
@@ -9,4 +9,4 @@ permalink:      :year/:month/:day/:title
 markdown:       kramdown
 markdown_ext:   md
 
-baseurl:        http://galileo.stanford.edu/
+url:        http://galileo.stanford.edu/
